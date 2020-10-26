@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+a {
+    text-decoration: none; /*글자 밑줄 제거*/
+}
+
+#mainBody #top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+#mainBody #logo{
+    margin-top: 7%;
+    width: 250px;
+}
+#mainBody .main-nav {
+    display: flex;
+    font-size: 1.8rem;
+    list-style: none; /*리스트 점 제거*/
+}
+#mainBody .main-nav li{
+    margin-left: 80px;
+    font-weight: bold;
+}
+#mainBody .main-nav a{
+    color: #212121;
+}
+#mainBody .main-nav li :hover{
+    color: #888888;
+}
+
+#mainBody #bg{
+    width: 100%;
+}
+/*---------------------------------------*/
+#IntroBody #top{
+    text-align: center;
+}
+#IntroBody #logo{
+    width: 500px;
+}
+#IntroBody .main-nav{
+    display: flex;
+    margin-top: 50px;
+    list-style: none;
+}
+#IntroBody .main-nav li{
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin: 0 auto;
+}
+#IntroBody .main-nav a{
+    color: #212121;
+}
+#IntroBody .main-nav li :hover{
+    color: #888888;
+}
+#IntroBody #Content{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+#IntroBody #IntroCon{
+    width: 90%;
+}
+/*---------------------------------------*/
+#IntroBody #ConCon{
+    margin-top: 0%;
+    margin-left: 0%;
+}
+#IntroBody #Content2 #Nav{
+    margin-top: 50px;
+}
+#IntroBody #Content2{
+    margin-top: 50px;
+    display: flex;
+}
